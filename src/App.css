@@ -1,32 +1,19 @@
-.App {
-  text-align: center;
+.cardList{
+    margin-top: 20px;
+    background-color: #1169b6;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    width: 35%;
+    height: 350px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.cardTitle{
+    text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cardLogo{
+    width: 30%;
+    margin-left: 65%;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ValidThru{
+    text-align: center;
 }
